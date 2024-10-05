@@ -1,0 +1,36 @@
+{
+    "words": [
+        {
+            "boruca_word": "srut",
+            "part_of_speech": "conj",
+            "spanish_translation": "con",
+            "example_sentence_boruca": "El árbol va a srut con las primaveras.",
+            "example_sentence_spanish": "El árbol va a florecer con la primavera.",
+            "comment": "This is not true, but it can be."
+        },
+        {
+            "boruca_word": "srut",
+            "part_of_speech": "n",
+            "spanish_translation": "florecita",
+            "example_sentence_boruca": "El árbol va a srut con las primaveras.",
+            "example_sentence_spanish": "El árbol va a florecer con la primavera.",
+            "comment": "This is not true, but it can be."
+        },
+        {
+            "boruca_word": "srut",
+            "part_of_speech": "v",
+            "spanish_translation": "flor",
+            "example_sentence_boruca": "El árbol va a srut con las primaveras.",
+            "example_sentence_spanish": "El árbol va a florecer con la primavera.",
+            "comment": "This is not true, but it can be."
+        },
+        {
+            "boruca_word": "shek",
+            "spanish_translation": "tortuga",
+            "part_of_speech": "n",
+            "example_sentence_boruca": "Shek ki dec",
+            "example_sentence_spanish": "La tortuga camina",
+            "comment": ""
+        }
+    ]
+}

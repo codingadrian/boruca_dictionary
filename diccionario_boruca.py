@@ -7,8 +7,13 @@ from datetime import datetime
 
 # URL of the JSON file in the GitHub repository
 GITHUB_JSON_URL = "https://raw.githubusercontent.com/codingadrian/user_boruca_dictionary/master/diccionario_boruca.json"
-LOCAL_JSON_PATH = "boruca_dictionary.json"
-DOWNLOAD_INFO_PATH = "download_info.json"
+LOCAL_JSON_PATH = os.path.expanduser("~/.local/share/boruca_dictionary.json")
+DOWNLOAD_INFO_PATH = os.path.expanduser("~/.local/share/download_info.json")
+
+# Ensure the directory exists
+if not os.path.exists(os.path.dirname(LOCAL_JSON_PATH)):
+    os.makedirs(os.path.dirname(LOCAL_JSON_PATH))
+
 
 # Load data from the JSON file hosted on GitHub with error handling and local file storage
 def load_data():
